@@ -1,59 +1,29 @@
-Desafio Engenheiro de Software - BTG Pactual
+# 🚀 Desafio Engenheiro de Software - BTG Pactual
 
-Introdução
+[![Status](https://img.shields.io/badge/status-em%20desenvolvimento-blue.svg)](https://github.com/seu-usuario/desafio-btg)
+[![Docker](https://img.shields.io/badge/docker-suportado-2496ED.svg)](https://www.docker.com/)
 
-Este repositório contém a implementação do desafio técnico para Engenheiro de Software proposto pelo BTG Pactual. O objetivo é processar pedidos, armazená-los em uma base de dados e fornecer uma API REST para consulta das informações processadas.
+## 📖 Sobre o Projeto
+Este repositório contém a implementação do desafio técnico para **Engenheiro de Software** do BTG Pactual.  
+A aplicação processa pedidos, armazena em um banco de dados e expõe uma **API REST** para consulta.
 
-Tecnologias Utilizadas
+---
 
-Linguagem: C# (.NET 7)
+## 📌 Tecnologias Utilizadas
+- ✅ **Linguagem:** C# (.NET 7)
+- ✅ **Banco de Dados:** PostgreSQL
+- ✅ **Mensageria:** RabbitMQ
+- ✅ **Containerização:** Docker
+- ✅ **Ferramentas:** Visual Studio, Postman, GitHub Actions
 
-Banco de Dados: PostgreSQL
+---
 
-Mensageria: RabbitMQ
-
-Containerização: Docker
-
-Ferramentas: Visual Studio, Postman, GitHub Actions
-
-Estrutura do Projeto
-
-Funcionalidades Implementadas
-
-Processamento de mensagens de pedidos via RabbitMQ.
-
-Persistência dos pedidos em um banco de dados PostgreSQL.
-
-API REST para consulta de:
-
-Valor total de um pedido
-
-Quantidade de pedidos por cliente
-
-Lista de pedidos por cliente
-
-Documentação da API utilizando Swagger.
-
-Execução do ambiente via Docker.
-
-Como Executar
-
-Requisitos:
-
-Docker e Docker Compose instalados.
-
-Git instalado.
-
-Passos:
-
-Clone este repositório:
-
-Inicie os containers com Docker Compose:
-
-Acesse a API através do navegador ou Postman:
-
-Exemplo de Requisição
-
-Criar Pedido
-
-Consultar Valor Total do Pedido
+## 📂 Estrutura do Projeto
+```sh
+/desafio-btg
+│── /src                    # Código-fonte da aplicação
+│── /database               # Scripts do banco de dados
+│── /docs                   # Documentação
+│── Dockerfile              # Configuração do Docker
+│── docker-compose.yml      # Orquestração dos containers
+│── README.md               # Documentação principal
