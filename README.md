@@ -11,19 +11,11 @@ A aplicação processa pedidos, armazena em um banco de dados e expõe uma **API
 
 ## 📌 Tecnologias Utilizadas
 - ✅ **Linguagem:** C# (.NET 7)
-- ✅ **Banco de Dados:** PostgreSQL
+- ✅ **Banco de Dados:** MySQL
 - ✅ **Mensageria:** RabbitMQ
 - ✅ **Containerização:** Docker
 - ✅ **Ferramentas:** Visual Studio, Postman, GitHub Actions
 
 ---
 
-## 📂 Estrutura do Projeto
-```sh
-/desafio-btg
-│── /src                    # Código-fonte da aplicação
-│── /database               # Scripts do banco de dados
-│── /docs                   # Documentação
-│── Dockerfile              # Configuração do Docker
-│── docker-compose.yml      # Orquestração dos containers
-│── README.md               # Documentação principal
+
